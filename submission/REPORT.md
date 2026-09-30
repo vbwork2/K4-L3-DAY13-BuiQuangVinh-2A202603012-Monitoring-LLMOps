@@ -6,7 +6,7 @@
 - **MSSV:** 2A202603012 .
 - **Lớp:** K4-L3B.
 - **Repository URL:** https://github.com/vbwork2/K4-L3-DAY13-BuiQuangVinh-2A202603012-Monitoring-LLMOps
-- **Commit SHA cuối:** Chưa có; điền SHA sau khi hoàn thành evidence và commit.
+- **Commit SHA cuối:** 7986eeafcf8c39b236e7c0bff16ef157b5f681b2
 - **Challenge ID:** day13-k4-l3b-monitoring-llmops-v1.
 - **Tên project Langfuse cá nhân:** `day13-k4-l3b-2A202603012`, đã xác nhận qua API và ảnh `06-trace-list.png`/`07-trace-waterfall.png`; project ID `cmunmfk6o00hxad0c1opri6cg`, vùng Nhật `https://jp.cloud.langfuse.com`.
 
