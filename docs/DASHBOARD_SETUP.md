@@ -6,6 +6,8 @@ Trường `query` trong YAML là pseudocode mô tả phép tính, không phải 
 
 Lab không bắt buộc một công cụ dashboard cụ thể. Bạn có thể dùng Streamlit, notebook, Grafana, script local tạo biểu đồ hoặc công cụ tương đương. Điều quan trọng khi chấm là dashboard runtime có dữ liệu thật từ `data/logs.jsonl`, đủ sáu panel, đọc được time range/đơn vị/threshold và khớp logic trong `config/dashboard.yaml`.
 
+Repo này có dashboard runtime tại `http://127.0.0.1:8000/dashboard`. Sau khi chạy API và workload, mở URL đó trong trình duyệt để xem sáu panel và chụp ảnh vào `submission/evidence/11-dashboard-overview.png`. Trang đọc lại file log khi refresh, mặc định 30 giây. Nếu cổng 8000 bị chiếm hoặc bị Windows từ chối, chạy API với `--port 8765`, dùng `python scripts/load_test.py --base-url http://127.0.0.1:8765`, rồi mở `http://127.0.0.1:8765/dashboard`.
+
 ## Mapping dữ liệu
 
 | Panel | Event/field | Phép tổng hợp |

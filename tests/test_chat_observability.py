@@ -40,3 +40,6 @@ def test_chat_response_log_exposes_quality_for_dashboard(
     assert response_event["ttft_ms"] == response.json()["ttft_ms"]
     assert response_event["tool_name"] == "retrieval"
     assert response_event["tool_success"] is True
+    assert response.headers["x-request-id"] == response.json()["correlation_id"]
+    assert float(response.headers["x-response-time-ms"]) >= 0
+    assert response_event["session_id"] != "session-01"

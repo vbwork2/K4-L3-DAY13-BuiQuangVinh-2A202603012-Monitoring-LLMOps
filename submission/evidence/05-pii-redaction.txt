@@ -1,0 +1,62 @@
+﻿[
+    {
+        "service":  "api",
+        "payload":  {
+                        "message_preview":  "What is your refund policy? My email is [REDACTED_EMAIL]"
+                    },
+        "event":  "request_received",
+        "user_id_hash":  "2055254ee30a",
+        "correlation_id":  "req-2a3f20dd",
+        "model":  "claude-sonnet-4-5",
+        "feature":  "qa",
+        "session_id":  "fb173a948cf4",
+        "env":  "dev",
+        "level":  "info",
+        "ts":  "2026-09-30T03:59:32.699047Z"
+    },
+    {
+        "service":  "api",
+        "payload":  {
+                        "message_preview":  "Here is my phone [REDACTED_PHONE_VN], what should be logged?"
+                    },
+        "event":  "request_received",
+        "user_id_hash":  "64f6ec689229",
+        "correlation_id":  "req-93113965",
+        "model":  "claude-sonnet-4-5",
+        "feature":  "qa",
+        "session_id":  "5e4f150aea3a",
+        "env":  "dev",
+        "level":  "info",
+        "ts":  "2026-09-30T03:59:33.015541Z"
+    },
+    {
+        "service":  "api",
+        "payload":  {
+                        "message_preview":  "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?"
+                    },
+        "event":  "request_received",
+        "user_id_hash":  "4d14d5d4f719",
+        "correlation_id":  "req-c5095969",
+        "model":  "claude-sonnet-4-5",
+        "feature":  "qa",
+        "session_id":  "6209f336db33",
+        "env":  "dev",
+        "level":  "info",
+        "ts":  "2026-09-30T03:59:33.655592Z"
+    },
+    {
+        "service":  "api",
+        "payload":  {
+                        "message_preview":  "What is your refund policy? My email is [REDACTED_EMAIL]"
+                    },
+        "event":  "request_received",
+        "user_id_hash":  "2055254ee30a",
+        "correlation_id":  "req-32f396e7",
+        "model":  "claude-sonnet-4-5",
+        "feature":  "qa",
+        "session_id":  "fb173a948cf4",
+        "env":  "dev",
+        "level":  "info",
+        "ts":  "2026-09-30T04:00:52.219491Z"
+    }
+]
