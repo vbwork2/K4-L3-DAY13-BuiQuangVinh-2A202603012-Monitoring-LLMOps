@@ -1,0 +1,36 @@
+[
+  {
+    "ts": "2026-09-30T09:01:32.874135Z",
+    "event": "request_received",
+    "correlation_id": "req-45d62217",
+    "feature": "monitoring",
+    "model": "claude-sonnet-4-5",
+    "env": "dev",
+    "latency_ms": null,
+    "ttft_ms": null,
+    "tool_name": null,
+    "tool_success": null,
+    "error_type": null,
+    "tokens_in": null,
+    "tokens_out": null,
+    "cost_usd": null,
+    "quality_score": null
+  },
+  {
+    "ts": "2026-09-30T09:01:35.529686Z",
+    "event": "response_sent",
+    "correlation_id": "req-45d62217",
+    "feature": "monitoring",
+    "model": "claude-sonnet-4-5",
+    "env": "dev",
+    "latency_ms": 2653,
+    "ttft_ms": 50,
+    "tool_name": "retrieval",
+    "tool_success": true,
+    "error_type": null,
+    "tokens_in": 35,
+    "tokens_out": 114,
+    "cost_usd": 0.001815,
+    "quality_score": 0.8
+  }
+]

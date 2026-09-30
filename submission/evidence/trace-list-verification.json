@@ -1,0 +1,191 @@
+{
+  "source": "Langfuse observations API via langfuse-cli",
+  "project_id": "cmunmfk6o00hxad0c1opri6cg",
+  "captured_utc": "2026-09-30T09:14:47.6025583Z",
+  "root_count_in_bounded_query": 162,
+  "has_next_cursor": false,
+  "verified_traces": [
+    {
+      "trace_id": "105e2d01336e33122b6190bd03ec8e59",
+      "correlation_id": "req-513a2ae8",
+      "start_time": "2026-09-30T08:10:45.593Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "11608016e97d92ac325cebb89924d3ae",
+      "correlation_id": "req-15bde94f",
+      "start_time": "2026-09-30T05:15:32.28Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "candidate",
+      "prompt_version": 2,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "2c10251031858219a5b1f047cc369615",
+      "correlation_id": "req-3a16324c",
+      "start_time": "2026-09-30T09:07:18.709Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "4a753989a90800549810f5c16b3a297c",
+      "correlation_id": "req-be2100af",
+      "start_time": "2026-09-30T09:07:18.865Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "8820506915b52793b1b2dca2efa4cc32",
+      "correlation_id": "req-f2846e1e",
+      "start_time": "2026-09-30T05:17:11.891Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 2,
+      "child_names": [
+        "retrieval",
+        "generation"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "a14c843ad8d7aa268f7ad6585de77edf",
+      "correlation_id": "req-21d10274",
+      "start_time": "2026-09-30T09:07:19.648Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "b1478afb72b494af6e7c3d6b7509eca2",
+      "correlation_id": "req-ea64816c",
+      "start_time": "2026-09-30T05:13:35.511Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "retrieval",
+        "generation"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "b6dc046db94e111d409deb2826d2ad3b",
+      "correlation_id": "req-f4f7856d",
+      "start_time": "2026-09-30T09:07:18.396Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "retrieval",
+        "generation"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "cab90f94cbf1cc80264508ca152cca96",
+      "correlation_id": "req-6dbc2cd9",
+      "start_time": "2026-09-30T09:07:19.179Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "cafd6b1d43fc1c045092256755238bb5",
+      "correlation_id": "req-8bdb2386",
+      "start_time": "2026-09-30T09:07:18.24Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "retrieval",
+        "generation"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "df6b47d4e46d0b35145cf38cd553816d",
+      "correlation_id": "req-787f9838",
+      "start_time": "2026-09-30T09:07:19.336Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "e23d798eeced6cca298c93d734ec1de8",
+      "correlation_id": "req-8715f9ba",
+      "start_time": "2026-09-30T09:07:19.022Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "generation",
+        "retrieval"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "e6bbb1b5c2ef6d47ff186b8b24379940",
+      "correlation_id": "req-17f6ac7d",
+      "start_time": "2026-09-30T09:07:18.552Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "retrieval",
+        "generation"
+      ],
+      "has_retrieval_and_generation": true
+    },
+    {
+      "trace_id": "f5d65445108cb267bb046cb79fba7a5b",
+      "correlation_id": "req-ecb0fd7f",
+      "start_time": "2026-09-30T09:07:19.494Z",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "child_names": [
+        "retrieval",
+        "generation"
+      ],
+      "has_retrieval_and_generation": true
+    }
+  ]
+}

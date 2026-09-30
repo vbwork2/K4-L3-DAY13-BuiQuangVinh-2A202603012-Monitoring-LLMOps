@@ -1,0 +1,81 @@
+{
+  "source": "Langfuse observations API via langfuse-cli",
+  "captured_utc": "2026-09-30T09:06:03.8926297Z",
+  "correlation_id": "req-45d62217",
+  "observations": [
+    {
+      "id": "13a1e96d275f4cb8",
+      "trace_id": "6ee5e0d0fe5d4bfe8090c5a9b689ddce",
+      "project_id": "cmunmfk6o00hxad0c1opri6cg",
+      "parent_observation_id": "cd38489d6e4784da",
+      "name": "generation",
+      "type": "GENERATION",
+      "start_time": "2026-09-30T09:01:35.377Z",
+      "end_time": "2026-09-30T09:01:35.529Z",
+      "duration_ms": 152.0,
+      "correlation_id": "req-45d62217",
+      "model": "claude-sonnet-4-5",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": null,
+      "doc_count": null,
+      "success": null,
+      "usage": {
+        "input": 35,
+        "output": 114,
+        "total": 149
+      },
+      "cost": {
+        "input": 0.000105,
+        "output": 0.00171,
+        "total": 0.001815
+      },
+      "ttft_ms": 50
+    },
+    {
+      "id": "ff1dbddfb09e9e0a",
+      "trace_id": "6ee5e0d0fe5d4bfe8090c5a9b689ddce",
+      "project_id": "cmunmfk6o00hxad0c1opri6cg",
+      "parent_observation_id": "cd38489d6e4784da",
+      "name": "retrieval",
+      "type": "SPAN",
+      "start_time": "2026-09-30T09:01:32.874Z",
+      "end_time": "2026-09-30T09:01:35.377Z",
+      "duration_ms": 2503.0,
+      "correlation_id": "req-45d62217",
+      "model": "claude-sonnet-4-5",
+      "prompt_name": null,
+      "prompt_label": null,
+      "prompt_version": null,
+      "prompt_source": null,
+      "doc_count": 1,
+      "success": true,
+      "usage": {},
+      "cost": {},
+      "ttft_ms": null
+    },
+    {
+      "id": "cd38489d6e4784da",
+      "trace_id": "6ee5e0d0fe5d4bfe8090c5a9b689ddce",
+      "project_id": "cmunmfk6o00hxad0c1opri6cg",
+      "parent_observation_id": null,
+      "name": "lab-agent-run",
+      "type": "AGENT",
+      "start_time": "2026-09-30T09:01:32.874Z",
+      "end_time": "2026-09-30T09:01:35.529Z",
+      "duration_ms": 2655.0,
+      "correlation_id": "req-45d62217",
+      "model": "claude-sonnet-4-5",
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "success": null,
+      "usage": {},
+      "cost": {},
+      "ttft_ms": null
+    }
+  ]
+}

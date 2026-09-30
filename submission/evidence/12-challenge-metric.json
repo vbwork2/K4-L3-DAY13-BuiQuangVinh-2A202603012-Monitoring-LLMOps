@@ -1,0 +1,32 @@
+{
+  "source": "http://127.0.0.1:8765/metrics",
+  "scope": "API process since startup; before and after official local challenge workload",
+  "started_utc": "2026-09-30T09:01:24.3724102Z",
+  "ended_utc": "2026-09-30T09:01:38.2154097Z",
+  "baseline": {
+    "traffic": 10,
+    "latency_p50": 151.0,
+    "latency_p95": 783.0,
+    "latency_p99": 783.0,
+    "ttft_p95": 50.0,
+    "avg_cost_usd": 0.0018,
+    "total_cost_usd": 0.0182,
+    "tokens_in_total": 338,
+    "tokens_out_total": 1148,
+    "error_breakdown": {},
+    "quality_avg": 0.88
+  },
+  "incident": {
+    "traffic": 15,
+    "latency_p50": 152.0,
+    "latency_p95": 2653.0,
+    "latency_p99": 2653.0,
+    "ttft_p95": 50.0,
+    "avg_cost_usd": 0.0019,
+    "total_cost_usd": 0.0287,
+    "tokens_in_total": 513,
+    "tokens_out_total": 1810,
+    "error_breakdown": {},
+    "quality_avg": 0.8667
+  }
+}

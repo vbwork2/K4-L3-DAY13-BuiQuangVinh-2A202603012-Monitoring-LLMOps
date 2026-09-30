@@ -1,0 +1,11 @@
+{
+  "meta": "Source: data/logs.jsonl · Last 60 minutes · Refresh every 30 seconds · Updated 2026-09-30 09:03:37 UTC",
+  "panels": [
+    "  Latency percentiles and TTFT  P50 151 ms   P95 2653 ms  P99 7016 ms · TTFT P95 50 ms  Threshold: p95 lte 2000 ms  ",
+    "  Request traffic  110 requests  1.83 requests/minute             Threshold: rate_per_minute gte 1 requests_per_minute  ",
+    "  Error rate and retrieval success  0.0% error rate  Retrieval success 100.0% (110/110)  Error types: none  Threshold: error_rate_pct lte 2 percent  ",
+    "  Cost over time  $0.2226  Total USD in window             Threshold: total lte 2.5 usd  ",
+    "  Input and output tokens  3,909 input  14,056 output tokens  Threshold: sum_by_field lte 50000 tokens  ",
+    "  Quality proxy  0.88  Mean quality proxy from 110 responses  Threshold: mean gte 0.75 score_0_to_1  "
+  ]
+}

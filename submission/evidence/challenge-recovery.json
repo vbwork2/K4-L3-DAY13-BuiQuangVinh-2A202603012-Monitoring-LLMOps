@@ -1,0 +1,99 @@
+{
+  "source": "data/logs.jsonl after disabling incident through the repo workflow",
+  "started_utc": "2026-09-30T09:07:17.6931741Z",
+  "ended_utc": "2026-09-30T09:07:20.7367302Z",
+  "health": {
+    "ok": true,
+    "tracing_enabled": true,
+    "incidents": {
+      "rag_slow": false,
+      "tool_fail": false,
+      "cost_spike": false
+    }
+  },
+  "responses": [
+    {
+      "ts": "2026-09-30T09:07:18.392963Z",
+      "event": "response_sent",
+      "correlation_id": "req-8bdb2386",
+      "latency_ms": 151,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:18.549408Z",
+      "event": "response_sent",
+      "correlation_id": "req-f4f7856d",
+      "latency_ms": 151,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:18.704543Z",
+      "event": "response_sent",
+      "correlation_id": "req-17f6ac7d",
+      "latency_ms": 151,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:18.862526Z",
+      "event": "response_sent",
+      "correlation_id": "req-3a16324c",
+      "latency_ms": 152,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:19.018078Z",
+      "event": "response_sent",
+      "correlation_id": "req-be2100af",
+      "latency_ms": 152,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:19.175006Z",
+      "event": "response_sent",
+      "correlation_id": "req-8715f9ba",
+      "latency_ms": 152,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:19.331732Z",
+      "event": "response_sent",
+      "correlation_id": "req-6dbc2cd9",
+      "latency_ms": 152,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:19.489946Z",
+      "event": "response_sent",
+      "correlation_id": "req-787f9838",
+      "latency_ms": 152,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:19.647333Z",
+      "event": "response_sent",
+      "correlation_id": "req-ecb0fd7f",
+      "latency_ms": 151,
+      "ttft_ms": 50,
+      "tool_success": true
+    },
+    {
+      "ts": "2026-09-30T09:07:19.804729Z",
+      "event": "response_sent",
+      "correlation_id": "req-21d10274",
+      "latency_ms": 152,
+      "ttft_ms": 50,
+      "tool_success": true
+    }
+  ],
+  "latency_p50_ms": 152.0,
+  "latency_p95_ms": 152.0,
+  "latency_p99_ms": 152.0
+}
